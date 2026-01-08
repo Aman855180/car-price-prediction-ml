@@ -74,7 +74,7 @@ model = joblib.load("car_price_model.joblib")
 df = pd.read_csv("Cleaned Car.csv")
 
 st.title("Car Price Predictor")
-st.write("This app predicts the price of a car you want to sell. Try filling the details below:")
+st.write("This website predicts the price of a car you want to sell. Try filling the details below:")
 
 
 company_list = sorted(df["company"].unique())
